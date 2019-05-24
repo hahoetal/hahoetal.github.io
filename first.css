@@ -1,0 +1,71 @@
+html {
+  background: url(milkyway.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+  margin:10px;
+  padding:0;
+  background-color: rgba(255,255,255,0.5);
+}
+
+header{
+  width:100%;
+  margin: 10px;
+}
+
+header > h1 {
+  font-size: 70px;
+  text-align: center;
+  margin: 10px;
+  padding:30px;
+  font-family: 'Black Han Sans';
+}
+
+#topmenu{
+  height:30px;
+  width: 1500px;
+}
+#topmenu ul li{
+  list-style: none;
+  color: #ffffff;
+  background-color: #000000;
+  float :left;
+  line-height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  border :1px solid #ffffff;
+}
+
+#topmenu .menulink{
+  text-decoration: none;
+  color: #ffffff;
+  display:block;
+  width:280px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+#topmenu .menulink:hover{
+  color: #000000;
+  background-color:#ffffff;
+}
+
+iframe {
+    width: 1000px;
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+ol{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
